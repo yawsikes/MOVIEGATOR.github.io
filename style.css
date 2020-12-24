@@ -1,0 +1,193 @@
+*{
+	margin: 0;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+body {
+	font-size:12px;
+	line-height:1.3;
+	font-family:Arial, Helvetica, Sans-Serif;
+	color:#ccc;
+	background-color: black;
+}
+
+#nav {
+	float:right;
+	clear:right;
+	padding-top:28px;
+	padding-bottom:47px;
+}
+#nav ul {
+	list-style:none;
+}
+#nav ul li {
+	float:left;
+	display:inline;
+	padding-left:29px;
+}
+#nav ul li a {
+	font-size:14px;
+	font-weight:bold;
+	color:#fff;
+	text-decoration:none;
+}
+#nav ul li a.top, #nav ul li a:hover {
+	color:#d91d2a;
+}
+
+#nav ul li a #nav ul li a:hover {
+	color:#d91d2a;
+}
+
+.subnav {
+	display:block;
+	clear:right;
+	border-top:1px dashed #666;
+	border-bottom:1px dashed #666;
+	padding:8px 0;
+}
+.subnav ul {
+	list-style:none;
+}
+.subnav ul li {
+	float:left;
+	display:inline;
+	padding-right:23px;
+}
+.subnav ul li a {
+	font-size:14px;
+	font-weight:bold;
+	color:#fff;
+	line-height:24px;
+	text-decoration:none;
+}
+.subnav ul li a:hover {
+	text-decoration:underline;
+}
+
+
+#search {
+	width:346px;
+	margin:0 0 0 auto;
+}
+#search label {
+	float:left;
+	display:inline;
+	font-size:14px;
+	font-weight:bold;
+	color:#fff;
+	line-height:24px;
+	padding-right:6px;
+}
+#search .search-field {
+	width:238px;
+	border:1px solid #413e3e;
+	background:#000;
+	color:#787878;
+	padding:2px 0 2px 2px;
+}
+#search .search-button {
+	font-size:14px;
+	font-weight:bold;
+	border:0;
+	background:none;
+	color:#fff;
+	cursor:pointer;
+}
+.movie{
+
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.movieimage img{
+	flex:1 0 21%;
+	text-align: center;
+	font-size:18px;
+	margin: 5px;
+	height: 200px;
+	
+
+}
+
+
+.movieimage img:hover{
+	background-color:red;
+}
+
+.series{
+	display:block;
+	clear:right;
+	border-top:1px dashed #666;
+	border-bottom:1px dashed #666;
+	padding:8px 0;
+}
+
+.all li a{
+	color: red;
+}
+.page{
+	
+	padding-left: 500px;
+	padding-top: 50px;
+	font-size: 11px;
+}
+
+.page a{
+	margin: 13px;
+	text-decoration: none;
+	font-size: 8px;
+
+}
+
+.moviename{
+    	display: block;
+    	
+	margin-top: 90px;
+	padding-left: 470px;
+	border-top:1px dashed #666;
+	border-bottom:1px dashed #666;
+}
+.moviename h1{
+
+	margin-left: 500px;
+}
+
+.movieimg{
+	padding-top: 20px;
+	padding-left: 300px;
+}
+
+.download{
+	margin-left: 350px;
+}
+
+.trailler{
+	padding-left: 200px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-top:1px dashed #666;
+	border-bottom:1px dashed #666;
+
+	
+}
+
+.directer{
+	margin-top: 20px;
+}
+
+.link{
+	padding-top: 20px;
+	padding-left: 500px;
+		border-top:1px dashed #666;
+	border-bottom:1px dashed #666;
+}
+
+.fzmovies{
+	padding: 500px;
+}
+.fzmovies img{
+	padding-right: 350px;
+}
+
